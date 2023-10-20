@@ -60,5 +60,17 @@ public class Main {
             if (months % 6 == 0){
             System.out.println("Месяц " + months + ", сумма накоплений " + contributionSum + " рублей");
         }}
+        System.out.println();
+        System.out.println("Задача 6");
+        System.out.println();
+        contributionSum = 0;
+        months = 0;
+        while (months < (12 * 9)){
+            months++;
+            contributionSum += contributionSum / 100 * percent;
+            contributionSum += contribution;
+            if (months % 6 == 0){
+                System.out.println("Месяц " + months + ", сумма накоплений " + contributionSum + " рублей");
+            }}
     }
 }
