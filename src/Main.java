@@ -35,6 +35,5 @@ public class Main {
             population += ((population/1000 * birthRate) - (population/1000 * mortalityRate));
             System.out.println("Год " + i + ", численность населения составляет " + population);
         }
-        
     }
 }
