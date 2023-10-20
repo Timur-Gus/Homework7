@@ -72,5 +72,12 @@ public class Main {
             if (months % 6 == 0){
                 System.out.println("Месяц " + months + ", сумма накоплений " + contributionSum + " рублей");
             }}
+        System.out.println();
+        System.out.println("Задача 7");
+        System.out.println();
+
+        for (int dayFriday = 6;dayFriday <= 31;dayFriday += 7){
+            System.out.println("Сегодня пятница, " + dayFriday + "-е число. Необходимо подготовить отчет");
+        }
     }
 }
